@@ -1,18 +1,19 @@
 # Given an integer, , perform the following conditional actions:
 
-- If n is odd, print Weird
-- If n is even and in the inclusive range of  to , print Not Weird
-- If n is even and in the inclusive range of  to , print Weird
-- If n is even and greater than , print Not Weird
+- The list of non-negative integers that are less than given user input n, Print the square of each number upto n-1 on a separate line.
 
 ## Constraints
-- 1 <= n <= 100
-- Print "n is not valid" if out of range input is given.
+- 1 <= n <= 20
+- Print "n is not valid" if user input is out of range.
 
-## Input Format
+## Input example:
 
-A single line containing a positive integer, .
+A single line containing a positive integer, n = 4.
 
 
-## Output Format
-- Print Weird if the number is weird. Otherwise, print Not Weird.
+## Output example:
+- find square of "0, 1, 2, 3" in separate line, for input 4.
+- 0
+- 1
+- 4
+- 9
